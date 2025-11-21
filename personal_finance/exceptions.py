@@ -4,5 +4,5 @@ class FinanceError(Exception):
 class AuthenticationError(FinanceError):
 pass
 
-
-
+class NotFoundError(FinanceError):
+pass
